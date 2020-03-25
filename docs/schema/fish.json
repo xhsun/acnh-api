@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "title": "The Root Schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The fish schema",
+    "required": [
+      "name",
+      "shadowSize",
+      "location",
+      "time",
+      "price",
+      "img",
+      "month"
+    ],
+    "properties": {
+      "name": {
+        "$id": "#/items/properties/name",
+        "type": "string",
+        "title": "Fish name"
+      },
+      "shadowSize": {
+        "$id": "#/items/properties/shadowSize",
+        "type": "string",
+        "title": "Fish's shadow size"
+      },
+      "location": {
+        "$id": "#/items/properties/location",
+        "type": "string",
+        "title": "Fish's location",
+        "description": "Where this fish can be found"
+      },
+      "time": {
+        "$id": "#/items/properties/time",
+        "type": "string",
+        "title": "Time of day",
+        "description": "time of day when this fish can be found"
+      },
+      "price": {
+        "$id": "#/items/properties/price",
+        "type": "integer",
+        "title": "Fish's price"
+      },
+      "img": {
+        "$id": "#/items/properties/img",
+        "type": "string",
+        "title": "Fish image",
+        "description": "Thumbnail image of this fish"
+      },
+      "month": {
+        "$id": "#/items/properties/month",
+        "type": "object",
+        "title": "Time of month",
+        "description": "time of month when this fish can be found",
+        "required": ["north", "south"],
+        "properties": {
+          "north": {
+            "$id": "#/items/properties/month/properties/north",
+            "type": "array",
+            "title": "Northern hemisphere schedule",
+            "items": {
+              "$id": "#/items/properties/month/properties/north/items",
+              "type": "integer",
+              "title": "Month",
+              "description": "Integer representation of the month"
+            }
+          },
+          "south": {
+            "$id": "#/items/properties/month/properties/south",
+            "type": "array",
+            "title": "Southern hemisphere schedule",
+            "items": {
+              "$id": "#/items/properties/month/properties/south/items",
+              "type": "integer",
+              "title": "Month",
+              "description": "Integer representation of the month"
+            }
+          }
+        }
+      }
+    }
+  }
+}
