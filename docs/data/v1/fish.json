@@ -5,7 +5,6 @@
     "location": "River",
     "time": "All day",
     "price": 900,
-    "img": "/img/f1.png",
     "month": {
       "north": [1, 2, 3, 11, 12],
       "south": [5, 6, 7, 8, 9]
@@ -17,7 +16,6 @@
     "location": "River",
     "time": "9 AM - 4 PM",
     "price": 200,
-    "img": "/img/f2.png",
     "month": {
       "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
       "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -29,7 +27,6 @@
     "location": "River",
     "time": "All day",
     "price": 160,
-    "img": "/img/f3.png",
     "month": {
       "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
       "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -41,7 +38,6 @@
     "location": "River",
     "time": "4 PM - 9 AM",
     "price": 240,
-    "img": "/img/f4.png",
     "month": {
       "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
       "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -53,7 +49,6 @@
     "location": "Pond",
     "time": "All day",
     "price": 300,
-    "img": "/img/f5.png",
     "month": {
       "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
       "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -65,7 +60,6 @@
     "location": "Pond",
     "time": "4 PM - 9 AM",
     "price": 4000,
-    "img": "/img/f5.png",
     "month": {
       "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
       "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -77,7 +71,6 @@
     "location": "Pond",
     "time": "All day",
     "price": 1300,
-    "img": "/img/f6.png",
     "month": {
       "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
       "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -89,7 +82,6 @@
     "location": "Pond",
     "time": "9 AM - 4 PM",
     "price": 1300,
-    "img": "/img/f7.png",
     "month": {
       "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
       "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -101,7 +93,6 @@
     "location": "Pond",
     "time": "9 AM - 4 PM",
     "price": 4500,
-    "img": "/img/f8.png",
     "month": {
       "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
       "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -113,7 +104,6 @@
     "location": "Pond",
     "time": "All day",
     "price": 300,
-    "img": "/img/f9.png",
     "month": {
       "north": [4, 5, 6, 7, 8],
       "south": [1, 2, 10, 11, 12]
@@ -125,7 +115,6 @@
     "location": "Pond",
     "time": "All day",
     "price": 200,
-    "img": "/img/f10.png",
     "month": {
       "north": [4, 5, 6, 7, 8, 9],
       "south": [1, 2, 3, 10, 11, 12]
@@ -137,7 +126,6 @@
     "location": "River",
     "time": "4 PM - 9 AM",
     "price": 3750,
-    "img": "/img/f11.png",
     "month": {
       "north": [8, 9],
       "south": [2, 3]
@@ -149,7 +137,6 @@
     "location": "River",
     "time": "9 PM - 4 AM",
     "price": 5000,
-    "img": "/img/f12.png",
     "month": {
       "north": [4, 5, 6, 7, 8, 9, 10],
       "south": [1, 2, 3, 4, 10, 11, 12]
@@ -161,7 +148,6 @@
     "location": "Pond",
     "time": "All day",
     "price": 100,
-    "img": "/img/f13.png",
     "month": {
       "north": [3, 4, 5, 6, 7],
       "south": [1, 9, 10, 11, 12]
@@ -173,7 +159,6 @@
     "location": "Pond",
     "time": "All day",
     "price": 120,
-    "img": "/img/f14.png",
     "month": {
       "north": [5, 6, 7, 8],
       "south": [1, 2, 11, 12]
@@ -185,7 +170,6 @@
     "location": "River",
     "time": "4 PM - 9 AM",
     "price": 400,
-    "img": "/img/f15.png",
     "month": {
       "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
       "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -197,7 +181,6 @@
     "location": "River",
     "time": "All day",
     "price": 400,
-    "img": "/img/f16.png",
     "month": {
       "north": [3, 4, 5],
       "south": [9, 10, 11]
@@ -209,7 +192,6 @@
     "location": "Pond",
     "time": "4 PM - 9 AM",
     "price": 800,
-    "img": "/img/f17.png",
     "month": {
       "north": [5, 6, 7, 8, 9, 10],
       "south": [1, 2, 3, 4, 11, 12]
@@ -221,7 +203,6 @@
     "location": "",
     "time": "",
     "price": 0,
-    "img": "",
     "month": {
       "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
       "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]

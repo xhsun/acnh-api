@@ -8,15 +8,7 @@
     "$id": "#/items",
     "type": "object",
     "title": "The fish schema",
-    "required": [
-      "name",
-      "shadowSize",
-      "location",
-      "time",
-      "price",
-      "img",
-      "month"
-    ],
+    "required": ["name", "shadowSize", "location", "time", "price", "month"],
     "properties": {
       "name": {
         "$id": "#/items/properties/name",
@@ -44,12 +36,6 @@
         "$id": "#/items/properties/price",
         "type": "integer",
         "title": "Fish's price"
-      },
-      "img": {
-        "$id": "#/items/properties/img",
-        "type": "string",
-        "title": "Fish image",
-        "description": "Thumbnail image of this fish"
       },
       "month": {
         "$id": "#/items/properties/month",
