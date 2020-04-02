@@ -4,7 +4,7 @@ A static REST API that provides critter information for Animal Crossing new Hori
 
 - `/data/v1/fish.json` contains all fish information
 - `/schema/v1/fish.json` contains JSON schema of the fish list
-- `/data/v1/bugs.json` contains all bug information
-- `/schema/v1/bugs.json` contains JSON schema of the bugs list
+- `/data/v1/bug.json` contains all bug information
+- `/schema/v1/bug.json` contains JSON schema of the bug list
 
-_Note: The critter information is extracted from [Animal Crossing Wiki](https://animalcrossing.fandom.com)_
+_Note: The critter information are extracted from [Animal Crossing Wiki](https://animalcrossing.fandom.com)_

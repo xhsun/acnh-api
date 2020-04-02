@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "title": "The Root Schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The bug schema",
+    "required": ["name", "location", "time", "price", "month"],
+    "properties": {
+      "name": {
+        "$id": "#/items/properties/name",
+        "type": "string",
+        "title": "Bug name"
+      },
+      "location": {
+        "$id": "#/items/properties/location",
+        "type": "string",
+        "title": "Bug's location",
+        "description": "Where this bug can be found"
+      },
+      "time": {
+        "$id": "#/items/properties/time",
+        "type": "string",
+        "title": "Time of day",
+        "description": "time of day when this bug can be found"
+      },
+      "price": {
+        "$id": "#/items/properties/price",
+        "type": "integer",
+        "title": "Bug's price"
+      },
+      "month": {
+        "$id": "#/items/properties/month",
+        "type": "object",
+        "title": "Time of month",
+        "description": "time of month when this bug can be found",
+        "required": ["north", "south"],
+        "properties": {
+          "north": {
+            "$id": "#/items/properties/month/properties/north",
+            "type": "array",
+            "title": "Northern hemisphere schedule",
+            "items": {
+              "$id": "#/items/properties/month/properties/north/items",
+              "type": "integer",
+              "title": "Month",
+              "description": "Integer representation of the month"
+            }
+          },
+          "south": {
+            "$id": "#/items/properties/month/properties/south",
+            "type": "array",
+            "title": "Southern hemisphere schedule",
+            "items": {
+              "$id": "#/items/properties/month/properties/south/items",
+              "type": "integer",
+              "title": "Month",
+              "description": "Integer representation of the month"
+            }
+          }
+        }
+      }
+    }
+  }
+}
