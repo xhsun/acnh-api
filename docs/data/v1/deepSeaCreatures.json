@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Seaweed",
+    "price": 200,
+    "shadowSize": "Large",
+    "swimmingPattern": "Stationary",
+    "time": "All day",
+    "month": {
+      "north": [1, 2, 3, 4, 5, 6, 7, 10, 11, 12],
+      "south": [1, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    }
+  },
+  {
+    "name": "Sea grapes",
+    "price": 900,
+    "shadowSize": "Small",
+    "swimmingPattern": "Stationary",
+    "time": "All day",
+    "month": {
+      "north": [6, 7, 8, 9],
+      "south": [1, 2, 3, 12]
+    }
+  },
+  {
+    "name": "Sea cucumber",
+    "price": 500,
+    "shadowSize": "Medium",
+    "swimmingPattern": "Slow consistent movement",
+    "time": "All day",
+    "month": {
+      "north": [1, 2, 3, 4, 11, 12],
+      "south": [5, 6, 7, 8, 9, 10]
+    }
+  },
+  {
+    "name": "Sea pig",
+    "price": 10000,
+    "shadowSize": "Small",
+    "swimmingPattern": "Quick long lunges",
+    "time": "4pm - 9am",
+    "month": {
+      "north": [1, 2, 11, 12],
+      "south": [5, 6, 7, 8]
+    }
+  },
+  {
+    "name": "Sea star",
+    "price": 500,
+    "shadowSize": "Small",
+    "swimmingPattern": "Slow short lunges",
+    "time": "All day",
+    "month": {
+      "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    }
+  },
+  {
+    "name": "Sea urchin",
+    "price": 1700,
+    "shadowSize": "Small",
+    "swimmingPattern": "Slow consistent movement",
+    "time": "All day",
+    "month": {
+      "north": [5, 6, 7, 8, 9],
+      "south": [1, 2, 3, 11, 12]
+    }
+  },
+  {
+    "name": "Slate pencil urchin",
+    "price": 2000,
+    "shadowSize": "Medium",
+    "swimmingPattern": "Moderate consistent movement",
+    "time": "4pm - 9am",
+    "month": {
+      "north": [5, 6, 7, 8, 9],
+      "south": [1, 2, 3, 11, 12]
+    }
+  },
+  {
+    "name": "Sea anemone",
+    "price": 500,
+    "shadowSize": "Large",
+    "swimmingPattern": "Stationary",
+    "time": "All day",
+    "month": {
+      "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    }
+  },
+  {
+    "name": "Moon jellyfish",
+    "price": 600,
+    "shadowSize": "Small",
+    "swimmingPattern": "Slow consistent movement",
+    "time": "All day",
+    "month": {
+      "north": [7, 8, 9],
+      "south": [1, 2, 3]
+    }
+  },
+  {
+    "name": "Sea slug",
+    "price": 600,
+    "shadowSize": "Tiny",
+    "swimmingPattern": "Slow consistent movement",
+    "time": "All day",
+    "month": {
+      "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    }
+  },
+  {
+    "name": "Pearl oyster",
+    "price": 2800,
+    "shadowSize": "Small",
+    "swimmingPattern": "Moderate long lunges",
+    "time": "All day",
+    "month": {
+      "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    }
+  },
+  {
+    "name": "Mussel",
+    "price": 1500,
+    "shadowSize": "Small",
+    "swimmingPattern": "Slow consistent movement",
+    "time": "All day",
+    "month": {
+      "north": [6, 7, 8, 9, 10, 11, 12],
+      "south": [1, 2, 3, 4, 5, 6, 12]
+    }
+  },
+  {
+    "name": "Oyster",
+    "price": 1100,
+    "shadowSize": "Small",
+    "swimmingPattern": "Moderate short lunges",
+    "time": "All day",
+    "month": {
+      "north": [1, 2, 9, 10, 11, 12],
+      "south": [3, 4, 5, 6, 7, 8]
+    }
+  },
+  {
+    "name": "Scallop",
+    "price": 1200,
+    "shadowSize": "Medium",
+    "swimmingPattern": "Slow long lunges",
+    "time": "All day",
+    "month": {
+      "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    }
+  },
+  {
+    "name": "Whelk",
+    "price": 1000,
+    "shadowSize": "Small",
+    "swimmingPattern": "Slow consistent movement",
+    "time": "All day",
+    "month": {
+      "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    }
+  },
+  {
+    "name": "Turban shell",
+    "price": 1000,
+    "shadowSize": "Small",
+    "swimmingPattern": "Slow",
+    "time": "All day",
+    "month": {
+      "north": [3, 4, 5, 9, 10, 11, 12],
+      "south": [3, 4, 5, 6, 9, 10, 11]
+    }
+  },
+  {
+    "name": "Abalone",
+    "price": 2000,
+    "shadowSize": "Medium",
+    "swimmingPattern": "Moderate consistent movement",
+    "time": "4pm - 9am",
+    "month": {
+      "north": [1, 6, 7, 8, 9, 10, 11, 12],
+      "south": [1, 2, 3, 4, 5, 6, 7, 12]
+    }
+  },
+  {
+    "name": "Gigas giant clam",
+    "price": 15000,
+    "shadowSize": "Huge",
+    "swimmingPattern": "Quick long lunges",
+    "time": "All day",
+    "month": {
+      "north": [5, 6, 7, 8, 9],
+      "south": [1, 2, 3, 11, 12]
+    }
+  },
+  {
+    "name": "Chambered nautilus",
+    "price": 1800,
+    "shadowSize": "Medium",
+    "swimmingPattern": "Slow",
+    "time": "4pm - 9am",
+    "month": {
+      "north": [3, 4, 5, 6, 9, 10, 11],
+      "south": [3, 4, 5, 9, 10, 11, 12]
+    }
+  },
+  {
+    "name": "Octopus",
+    "price": 1200,
+    "shadowSize": "Medium",
+    "swimmingPattern": "Moderate long lunges",
+    "time": "All day",
+    "month": {
+      "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    }
+  },
+  {
+    "name": "Umbrella octopus",
+    "price": 6000,
+    "shadowSize": "Small",
+    "swimmingPattern": "Quick long lunges",
+    "time": "All day",
+    "month": {
+      "north": [3, 4, 5, 9, 10, 11],
+      "south": [3, 4, 5, 9, 10, 11]
+    }
+  },
+  {
+    "name": "Vampire squid",
+    "price": 10000,
+    "shadowSize": "Medium",
+    "swimmingPattern": "Quick long lunges",
+    "time": "5pm - 9am",
+    "month": {
+      "north": [5, 6, 7, 8],
+      "south": [1, 2, 11, 12]
+    }
+  },
+  {
+    "name": "Firefly squid",
+    "price": 1400,
+    "shadowSize": "Tiny",
+    "swimmingPattern": "Slow",
+    "time": "9pm - 4am",
+    "month": {
+      "north": [3, 4, 5, 6],
+      "south": [9, 10, 11, 12]
+    }
+  },
+  {
+    "name": "Gazami crab",
+    "price": 2200,
+    "shadowSize": "Medium",
+    "swimmingPattern": "Moderate long lunges",
+    "time": "All day",
+    "month": {
+      "north": [6, 7, 8, 9, 10, 11],
+      "south": [1, 2, 3, 4, 5, 12]
+    }
+  },
+  {
+    "name": "Dungeness crab",
+    "price": 1900,
+    "shadowSize": "Medium",
+    "swimmingPattern": "Moderate consistent movement",
+    "time": "All day",
+    "month": {
+      "north": [1, 2, 3, 4, 5, 11, 12],
+      "south": [5, 6, 7, 8, 9, 10, 11]
+    }
+  },
+  {
+    "name": "Snow crab",
+    "price": 6000,
+    "shadowSize": "Large",
+    "swimmingPattern": "Quick short lunges",
+    "time": "All day",
+    "month": {
+      "north": [1, 2, 3, 4, 11, 12],
+      "south": [5, 6, 7, 8, 9, 10]
+    }
+  },
+  {
+    "name": "Red king crab",
+    "price": 8000,
+    "shadowSize": "Large",
+    "swimmingPattern": "Quick",
+    "time": "All day",
+    "month": {
+      "north": [1, 2, 3, 11, 12],
+      "south": [5, 6, 7, 8, 9]
+    }
+  },
+  {
+    "name": "Acorn barnacle",
+    "price": 600,
+    "shadowSize": "Tiny",
+    "swimmingPattern": "Stationary",
+    "time": "All day",
+    "month": {
+      "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    }
+  },
+  {
+    "name": "Spider crab",
+    "price": 12000,
+    "shadowSize": "Huge",
+    "swimmingPattern": "Quick",
+    "time": "All day",
+    "month": {
+      "north": [3, 4],
+      "south": [9, 10]
+    }
+  },
+  {
+    "name": "Tiger prawn",
+    "price": 3000,
+    "shadowSize": "Small",
+    "swimmingPattern": "Moderate consistent movement",
+    "time": "4pm - 9am",
+    "month": {
+      "north": [6, 7, 8, 9],
+      "south": [1, 2, 3, 12]
+    }
+  },
+  {
+    "name": "Sweet shrimp",
+    "price": 1400,
+    "shadowSize": "Small",
+    "swimmingPattern": "Slow",
+    "time": "4pm - 9am",
+    "month": {
+      "north": [1, 2, 9, 10, 11, 12],
+      "south": [3, 4, 5, 6, 7, 8]
+    }
+  },
+  {
+    "name": "Mantis shrimp",
+    "price": 2500,
+    "shadowSize": "Small",
+    "swimmingPattern": "Quick short lunges",
+    "time": "4pm - 9am",
+    "month": {
+      "north": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "south": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    }
+  },
+  {
+    "name": "Spiny lobster",
+    "price": 5000,
+    "shadowSize": "Large",
+    "swimmingPattern": "Fast",
+    "time": "9pm - 4am",
+    "month": {
+      "north": [10, 11, 12],
+      "south": [4, 5, 6]
+    }
+  },
+  {
+    "name": "Lobster",
+    "price": 4500,
+    "shadowSize": "Large",
+    "swimmingPattern": "Quick",
+    "time": "All day",
+    "month": {
+      "north": [1, 4, 5, 6, 12],
+      "south": [6, 7, 10, 11, 12]
+    }
+  },
+  {
+    "name": "Giant isopod",
+    "price": 12000,
+    "shadowSize": "Medium",
+    "swimmingPattern": "Quick long lunges",
+    "time": "9am - 4pm & 9pm - 4am",
+    "month": {
+      "north": [7, 8, 9, 10],
+      "south": [1, 2, 3, 4]
+    }
+  },
+  {
+    "name": "Horseshoe crab",
+    "price": 2500,
+    "shadowSize": "Medium",
+    "swimmingPattern": "Quick short lunges",
+    "time": "9pm - 4am",
+    "month": {
+      "north": [7, 8, 9],
+      "south": [1, 2, 3]
+    }
+  },
+  {
+    "name": "Sea pineapple",
+    "price": 1500,
+    "shadowSize": "Small",
+    "swimmingPattern": "Slow long lunges",
+    "time": "All day",
+    "month": {
+      "north": [4, 5, 6, 7, 8],
+      "south": [1, 2, 10, 11, 12]
+    }
+  },
+  {
+    "name": "Spotted garden eel",
+    "price": 1100,
+    "shadowSize": "Small",
+    "swimmingPattern": "Slow consistent movement",
+    "time": "4am - 9pm",
+    "month": {
+      "north": [5, 6, 7, 8, 9, 10],
+      "south": [1, 2, 3, 4, 11, 12]
+    }
+  },
+  {
+    "name": "Flatworm",
+    "price": 700,
+    "shadowSize": "Tiny",
+    "swimmingPattern": "Slow short movement",
+    "time": "4pm - 9am",
+    "month": {
+      "north": [8, 9],
+      "south": [2, 3]
+    }
+  },
+  {
+    "name": "Venus' flower basket",
+    "price": 5000,
+    "shadowSize": "Medium",
+    "swimmingPattern": "Quick long lunges",
+    "time": "All day",
+    "month": {
+      "north": [1, 2, 10, 11, 12],
+      "south": [4, 5, 6, 7, 8]
+    }
+  }
+]
