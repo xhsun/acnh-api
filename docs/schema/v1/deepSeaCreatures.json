@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "title": "The Root Schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "items": {
+    "type": "object",
+    "title": "The deep sea creatures Schema",
+    "required": [
+      "name",
+      "price",
+      "shadowSize",
+      "swimmingPattern",
+      "time",
+      "month"
+    ],
+    "properties": {
+      "name": {
+        "type": "string",
+        "title": "Name",
+        "description": "Deep sea creature's name"
+      },
+      "price": {
+        "type": "integer",
+        "title": "Price",
+        "description": "Deep sea creature's price"
+      },
+      "shadowSize": {
+        "type": "string",
+        "title": "Shadow size",
+        "description": "Deep sea creature's shadow size"
+      },
+      "swimmingPattern": {
+        "type": "string",
+        "title": "Swimming pattern",
+        "description": "Deep sea creature's swimming pattern"
+      },
+      "time": {
+        "type": "string",
+        "title": "Time of day",
+        "description": "Time of day when this deep sea creature can be found"
+      },
+      "month": {
+        "type": "object",
+        "title": "Time of month",
+        "description": "Time of month when this fish can be found",
+        "required": ["north", "south"],
+        "properties": {
+          "north": {
+            "type": "array",
+            "title": "Northern hemisphere schedule",
+            "items": {
+              "type": "integer",
+              "title": "Month",
+              "description": "Integer representation of the month"
+            }
+          },
+          "south": {
+            "type": "array",
+            "title": "Southern hemisphere schedule",
+            "items": {
+              "type": "integer",
+              "title": "Month",
+              "description": "Integer representation of the month"
+            }
+          }
+        }
+      }
+    }
+  }
+}
